@@ -19,8 +19,16 @@ To make cost effective solution and keep the complexity of the system minimum, w
 
 #### Challanges Faced
 
+* **Design** - To consider only the person standing in front of the system, we made a system inspired by a kiosk design so that only the person bent a little bit is only considered which drastically decreases the chance of unwanted detection
 
+* **Computation** - The entire pipeline is deployed on edge devices, hence we had to develop efficient face detection and recognition pipeline that is not computationally expensive
+
+* **Scalablity** - To register attendance of 500+ employees, we developed a scalable pipeline which can support n number of devices connected locally
 #### Open Source Contributions
+
+While developing this soultion we used several open source tools, we also collabrated and contributed to many open source projects such as,
+* [Head Pose Estimation](https://github.com/by-sabbir/HeadPoseEstimation)
+* [FaceNet TensorRT](https://github.com/nwesem/mtcnn_facenet_cpp_tensorRT/tree/develop)
 
 ### Features
 
