@@ -32,7 +32,21 @@ While developing this soultion we used several open source tools, we also collab
 
 ### Features
 
+* **0 downtime** - Since all the computations are done locally, and all the devices are connected on local network, there is no downtime because of internet outage.
+
+* **Unkonwn People Attendance** - If there are people who arrive less frequently and aren't the part of attendance db, this system assigns a ID to the person and remembers the person when he/she arrives again.
+
+* **Feedback** - For specially abled people, the feedback of attendace is conveyed through audio (in native language) as well as on the display
+
+* **Spoof-Proof**
+
+
+
 ### Performance
 
+* **Speed** - The system is 4x fater than the existing ateendance system (based on the data collected over a month while testing)
+* **Accuracy** - The system is 91.88% accurate (based on the data collected over a month while testing)
+
 ### Technologies Used
+TensorRT, DeepStream SDK, Python, C++, Jetson Nano, TTS engine, Dlib, OpenCV, Face detection and Recognition models
 
