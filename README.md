@@ -11,11 +11,20 @@ The Existing attendance system used by the client was slow, inefficent, unreliab
 
 #### Approach
 Face attendance system can be of 2 types
-* Verification based sytem - In such systems, usually a sub system is used based on RFID or some other identifiers. The role of face recognition is to verify if the RFID credentials belongs to the person presenting it.
+* **Verification based sytem** - In such systems, usually a sub-system is used based on RFID or some other identifiers. The role of face recognition is to verify if the RFID credentials belongs to the person presenting it.
 
-* Recognition based system - These systems solely depends on facial features and does not require any sub system for authentiaction.
+* **Recognition based system** - These systems solely depends on facial features and do not require any sub system for authentiaction.
+
+To make cost effective solution and keep the complexity of the system minimum, we developed a Recognition based face attendance system. We throughly researched all the possible solutions available for the purpose of face recognition, vigorously tried and tested them and after 100+ iterations we sucessfully developed a solution, which met all the client demands along with additional perks.
+
+#### Challanges Faced
+
+
+#### Open Source Contributions
 
 ### Features
 
 ### Performance
+
+### Technologies Used
 
