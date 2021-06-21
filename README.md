@@ -44,7 +44,7 @@ While developing this soultion we used several open source tools, we also collab
 
 ### Performance
 
-* **Speed** - The system is 4x fater than the existing ateendance system (based on the data collected over a month while testing)
+* **Speed** - The system is 4x fater than the existing atendance system (based on the data collected over a month while testing)
 * **Accuracy** - The system is 91.88% accurate (based on the data collected over a month while testing)
 
 ### Technologies Used
